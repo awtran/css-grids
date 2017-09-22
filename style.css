@@ -2,30 +2,29 @@ html {
   font-size: 62.5%;
   background-color: #F2F6F9; }
 body {
-  font-size: 1.4em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.4em;
   line-height: 1.6;
   font-weight: 400;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff;
   text-align: center }
-  
+
 /* parent div style */
 .parent {
 	border-radius: 6px;
 	background-color: white;
-	padding: 20px;
-	margin: 6%;
+	padding: 1rem;
+  margin: 0.4rem;
 	box-shadow: 0px 8px 20px 0px rgba(100,100,140,0.2)
 }
 
 .parent {
-	display: grid;	
-	grid-auto-rows: minmax(auto, auto);
+	display: grid;
 	grid-template-columns: 1fr;
 }
 
 .parent > div {
-	margin: 8px;
+	margin: 4px;
 	background-color: #a0a6e2;
 	border-radius: 6px;
 	padding: 8px;
