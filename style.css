@@ -6,54 +6,42 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center }
 
-/* parent div style */
-.parent {
-	border-radius: 6px;
-	background-color: white;
-	padding: 1rem;
-  margin: 0.4rem;
-	box-shadow: 0px 8px 20px 0px rgba(100,100,140,0.2)
+/* Wrappers
+_____________________________________________ */
+
+.container {
+
 }
 
-.parent {
-	display: grid;
-	grid-template-columns: 1fr;
+.msg-list_wrapper {
+
 }
 
-.parent > div {
-	margin: 4px;
-	background-color: #a0a6e2;
-	border-radius: 6px;
-	padding: 8px;
+.msg-chat_wrapper {
+
 }
 
-@media (min-width: 650px) {
-	.box1 {
-		grid-column-start: 1;
-		grid-column-end: 5;
-	}
+
+/* Divs
+_____________________________________________ */
+.msg-header_div {
+
 }
 
-@media (min-width: 960px) {
-	body {
-		font-size: 1.6em;
-	}
-	.box1 {
-		grid-row-start: 1;
-		grid-row-end: 4;
-		grid-column-start: 1;
-		grid-column-end: auto;
-	}
-	.parent {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+
+.msg-user_div {
+
 }
 
-@media (min-width: 1280px) {
-	.parent {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+/* Fonts
+_____________________________________________ */
+.msg-title_h1 {
+
+}
+
+.msg-preview_p {
+
 }
